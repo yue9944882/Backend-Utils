@@ -92,12 +92,11 @@ class CountThread extends Thread{
                 System.out.println("HeartBeat: Current Size --"+persistentQueue.getUsedCapacity());
                 sleep(1000);
             }
-            persistentQueue.shutdown();
+            //persistentQueue.shutdown();
         }catch(Exception e){
             e.printStackTrace();
         }
     }
-
 }
 
 class InputThread extends Thread{

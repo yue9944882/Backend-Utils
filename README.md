@@ -4,8 +4,8 @@
 Personal Java Backend Toolset for Developling Backend Server &amp; Service
 
 
+##1. PersistentQueue 持久化队列##
 
-----------
 
 ### MappedFileQueue ###
 	Usage: 
@@ -19,7 +19,7 @@ Personal Java Backend Toolset for Developling Backend Server &amp; Service
 		ConsumeFromDiskFile - detailed manipulation of file IO when Consume 
 		ProduceToDiskFile - detailed manipulation of file IO when Produce
 
-----------
+
 
 ### DiskBackedInMemoryQueue ###
 
@@ -39,5 +39,15 @@ PersistentQueue<Integer> pq=new DiskBackedInMemoryBlockingQueue<Integer>(300,new
 pq.produce(new Integer(1000));
 
 Integer i=pq.consume();
+
+### ByteArrayPersistentQueue ###
+
+	Usage: 
+    	Encapsulating the A queue via a in-memory blocking queue supporting blocking concurrency.
+	Entry Function:
+    	Constructor - DiskBackedInMemoryBlockingQueue(int maxMemoryElementCount, PersistentQueue persistentQueue)
+    	Produce(i.e.PUSH) - public boolean produce(T t)
+    	Consume(i.e.PULL) - public T consume()
+    	Shutdown - To shutdown the queue without cleaning data reservation
 
 ----------
