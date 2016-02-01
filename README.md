@@ -43,11 +43,10 @@ Integer i=pq.consume();
 ### ByteArrayPersistentQueue ###
 
 	Usage: 
-    	Encapsulating the A queue via a in-memory blocking queue supporting blocking concurrency.
+    	Enabling a persistent queue to consume the latest coming bytes and use spare time to consume the old.
 	Entry Function:
-    	Constructor - DiskBackedInMemoryBlockingQueue(int maxMemoryElementCount, PersistentQueue persistentQueue)
+    	Constructor - ByteArrayPersistentQueue(String dir,String qName,int maxFileSize)
     	Produce(i.e.PUSH) - public boolean produce(T t)
     	Consume(i.e.PULL) - public T consume()
     	Shutdown - To shutdown the queue without cleaning data reservation
 
-----------
