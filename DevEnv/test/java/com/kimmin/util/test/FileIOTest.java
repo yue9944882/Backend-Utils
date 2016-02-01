@@ -12,6 +12,8 @@ import java.io.Serializable;
 import java.nio.MappedByteBuffer;
 import java.util.Random;
 
+
+
 /**
  * Created by min.jin on 2016/1/29.
  */
@@ -23,6 +25,7 @@ public class FileIOTest {
         int maxOnDiskFileSizeMB=1024*4;
         try {
             PersistentQueue<Integer> pq=new DiskBackedInMemoryBlockingQueue<Integer>(300,new MappedFileQueue<>("D:/dq/", "IncomingQueue", maxOnDiskFileSizeMB));
+
             /*for(int i=0;i<10000000;i++){
                 pq.produce(i);
             }*/
