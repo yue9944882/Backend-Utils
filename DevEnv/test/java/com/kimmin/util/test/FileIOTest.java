@@ -15,9 +15,11 @@ import java.util.Random;
 /**
  * Created by min.jin on 2016/1/29.
  */
+
 public class FileIOTest {
 
     public static void main(String[] args){
+
         int maxOnDiskFileSizeMB=1024*4;
         try {
             PersistentQueue<Integer> pq=new DiskBackedInMemoryBlockingQueue<Integer>(300,new MappedFileQueue<>("D:/dq/", "IncomingQueue", maxOnDiskFileSizeMB));
