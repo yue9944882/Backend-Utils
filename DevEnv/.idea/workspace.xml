@@ -36,8 +36,8 @@
       <file leaf-file-name="MappedFileQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/java/com/kimmin/util/queue/MappedFileQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="104" column="13" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
+            <state vertical-scroll-proportion="4.4666667">
+              <caret line="241" column="21" selection-start-line="241" selection-start-column="21" selection-end-line="241" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2233#2239#0" expanded="true" />
@@ -52,11 +52,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ByteArrayPersistentQueue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/java/com/kimmin/util/queue/ByteArrayPersistentQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.60507756">
+              <caret line="284" column="43" selection-start-line="284" selection-start-column="43" selection-end-line="284" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3711#3894#0" expanded="true" />
+                <element signature="e#3893#3894#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="PersistentQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/java/com/kimmin/util/queue/PersistentQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiskBackedInMemoryBlockingQueue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DiskBackedInMemoryBlockingQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/java/com/kimmin/util/queue/DiskBackedInMemoryBlockingQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.1052632">
-              <caret line="60" column="22" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,11 +121,13 @@
         <option value="$PROJECT_DIR$/src/com/kimmin/util/QueueUtil.java" />
         <option value="$PROJECT_DIR$/src/com/kimmin/util/queue/MappedFileQueue.java" />
         <option value="$PROJECT_DIR$/src/com/kimmin/util/queue/PersistentQueue.java" />
-        <option value="$PROJECT_DIR$/main/java/com/kimmin/util/queue/PersistentQueue.java" />
         <option value="$PROJECT_DIR$/main/java/com/kimmin/util/queue/DiskBackedInMemoryQueue.java" />
         <option value="$PROJECT_DIR$/main/java/com/kimmin/util/queue/DiskBackedInMemoryBlockingQueue.java" />
         <option value="$PROJECT_DIR$/test/java/com/kimmin/util/test/FileIOTest.java" />
         <option value="$PROJECT_DIR$/main/java/com/kimmin/util/queue/MappedFileQueue.java" />
+        <option value="$PROJECT_DIR$/main/java/com/kimmin/util/queue/StateTransferDiskQueue.java" />
+        <option value="$PROJECT_DIR$/main/java/com/kimmin/util/queue/PersistentQueue.java" />
+        <option value="$PROJECT_DIR$/main/java/com/kimmin/util/queue/ByteArrayPersistentQueue.java" />
       </list>
     </option>
   </component>
@@ -696,12 +712,12 @@
       <created>1454056304162</created>
       <option name="number" value="Default" />
       <updated>1454056304162</updated>
-      <workItem from="1454056305329" duration="19513000" />
+      <workItem from="1454056305329" duration="24497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19513000" />
+    <option name="totallyTimeSpent" value="24497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -714,7 +730,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17449665" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16870415" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -754,26 +770,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/java/com/kimmin/util/queue/PersistentQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/concurrent/atomic/AtomicLong.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6315789">
           <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/com/kimmin/util/QueueUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -789,10 +789,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/com/kimmin/util/queue/MappedFileQueue.java">
+    <entry file="file://$PROJECT_DIR$/main/java/com/kimmin/util/QueueUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="104" column="13" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/nio/MappedByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71791255">
+          <caret line="198" column="34" selection-start-line="198" selection-start-column="34" selection-end-line="198" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/com/kimmin/util/queue/PersistentQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/com/kimmin/util/queue/MappedFileQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.4666667">
+          <caret line="241" column="21" selection-start-line="241" selection-start-column="21" selection-end-line="241" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2233#2239#0" expanded="true" />
@@ -808,10 +832,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/java/com/kimmin/util/queue/DiskBackedInMemoryBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.1052632">
-          <caret line="60" column="22" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/nio/ByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33286318">
+          <caret line="740" column="22" selection-start-line="740" selection-start-column="22" selection-end-line="740" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/com/kimmin/util/queue/ByteArrayPersistentQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60507756">
+          <caret line="284" column="43" selection-start-line="284" selection-start-column="43" selection-end-line="284" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3711#3894#0" expanded="true" />
+            <element signature="e#3893#3894#0" expanded="true" />
           </folding>
         </state>
       </provider>
