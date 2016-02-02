@@ -21,7 +21,7 @@ public class ProducerFactory <T extends Producer>{
 
     /** Fake Producing **/
     public Producer produce(){
-
+        return null;
     }
 
 }

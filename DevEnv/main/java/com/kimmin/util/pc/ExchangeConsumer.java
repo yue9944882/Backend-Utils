@@ -10,6 +10,6 @@ import java.util.concurrent.Exchanger;
 public class ExchangeConsumer<T> implements Consumer<T> {
     @Override
     public T consume(){
-
+        return null;
     }
 }

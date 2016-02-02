@@ -21,8 +21,21 @@ public class ConsumerFactory{
     }
 
     /** Fake Producing **/
-    public Consumer produce(){
+    public Consumer produce(Class<?> type){
+        if(type==null){
+            return null;
+        }else{
+            switch (type.getSimpleName()){
+                case "ExchangeConsumer":
 
+                    break;
+                case "":
+
+                    break;
+                default:
+                    return null;
+            }
+        }
+        return null;
     }
-
 }
