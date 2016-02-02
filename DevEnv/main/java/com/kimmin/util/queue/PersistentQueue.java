@@ -1,11 +1,12 @@
 package com.kimmin.util.queue;
 
 import java.io.Serializable;
+import java.util.Queue;
 
 /**
  * Created by min.jin on 2016/1/29.
  */
-public interface PersistentQueue< T extends Serializable> {
+public interface PersistentQueue< T extends Serializable> extends Queue<T> {
 
     //Primitive Action :
     boolean produce(T t);
@@ -28,7 +29,6 @@ public interface PersistentQueue< T extends Serializable> {
 
     //Manipulation Entry Point
     void shutdown();
-
 
 
 }
