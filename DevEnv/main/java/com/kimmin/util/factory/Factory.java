@@ -5,8 +5,13 @@ import com.kimmin.util.pc.Producer;
 /**
  * Created by min.jin on 2016/2/2.
  */
+
+/** Template Only **/
+/** Because of private constructor this class cannot be inherited **/
+
 public class Factory<T extends Product>{
 
+    /** Singleton & Multi-thread initialization protection **/
     private Factory(){}
 
     private Product innerProduct=null;
@@ -19,13 +24,7 @@ public class Factory<T extends Product>{
         return SingletonFactory.instance;
     }
 
-    public T produce(){
-        return innerProduct.constructor();
-    }
-
-
-    public void setProductClass(Product product){
-        innerProduct=product;
-    }
+    /** Fake Producing **/
+    public T produce(){ return null; }
 
 }
