@@ -7,6 +7,10 @@ import java.util.concurrent.Exchanger;
 /**
  * Created by min.jin on 2016/2/2.
  */
+
+/** Usage : Inheritance from this class **/
+
+
 public class ExchangeProducer<T> extends Thread implements Producer<T> {
 
     private Exchanger<T> exchanger=null;

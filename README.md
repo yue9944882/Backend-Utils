@@ -50,3 +50,14 @@ Integer i=pq.consume();
     	Consume(i.e.PULL) - public T consume()
     	Shutdown - To shutdown the queue without cleaning data reservation
 
+##2. Producer & Consumer 异步消费模式##
+
+### Exchange Producer & Consumer ###
+	Usage: 
+		1.Inherite from class ExchangeProducer and ExchangeConsumer seperately , and override the method PREPARE,RUN via your own implementation. 		
+		2.Exchanger can only be shared by a couple of Producer and Consumer.
+		3.BETTER do the merging or aggregating in PREPARE method,and put it into a inner collection.
+
+	Entry Function:
+	  	public ExchangeProducer(Exchanger<T> ec)
+		public class ExchangeConsumer<T> extends Thread implements Consumer<T>

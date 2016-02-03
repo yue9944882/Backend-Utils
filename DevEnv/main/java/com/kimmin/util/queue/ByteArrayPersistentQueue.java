@@ -439,6 +439,4 @@ public class ByteArrayPersistentQueue implements PersistentQueue<byte[]> {
         }
     }
 
-
-
 }

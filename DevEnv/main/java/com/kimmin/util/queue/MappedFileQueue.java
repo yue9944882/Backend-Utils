@@ -398,5 +398,6 @@ public class MappedFileQueue<T extends Serializable> implements PersistentQueue<
     public long getUsedCapacity(){
         return getBackFileSize();
     }
+
 }
 

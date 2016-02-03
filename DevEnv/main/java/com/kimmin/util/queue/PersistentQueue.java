@@ -6,7 +6,7 @@ import java.util.Queue;
 /**
  * Created by min.jin on 2016/1/29.
  */
-public interface PersistentQueue< T extends Serializable> extends Queue<T> {
+public interface PersistentQueue< T extends Serializable>{
 
     //Primitive Action :
     boolean produce(T t);
