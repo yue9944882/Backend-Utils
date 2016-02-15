@@ -16,7 +16,8 @@ public class ExecutorDemo {
         //ExecutorService sched=Executors.newScheduledThreadPool(4);
         //ExecutorService singlesched=Executors.newSingleThreadScheduledExecutor();
 
-        Callable callable=Executors.callable(new Runnable() {
+
+        Callable<String> callable=Executors.callable(new Runnable() {
             @Override
             public void run() {
                 for(int i=0;i<100;i++){
@@ -29,9 +30,10 @@ public class ExecutorDemo {
             }
         },"success");
 
-        Future f=single.submit(callable);
+        Future<String> f=single.submit(callable);
         try {
-            System.out.println((String)f.get());
+            System.out.println(f.get());
+            single.shutdown();
         }catch(Throwable e){
             e.printStackTrace();
         }
