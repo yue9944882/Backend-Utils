@@ -22,12 +22,7 @@ public class TestEntry {
 
     public static void main(String[] args){
 
-        ExecutorService fixed=Executors.newFixedThreadPool(4);
-        ExecutorService single=Executors.newSingleThreadExecutor();
-        ExecutorService cached=Executors.newCachedThreadPool();
-        ExecutorService sched=Executors.newScheduledThreadPool(4);
-        ExecutorService singlesched=Executors.newSingleThreadScheduledExecutor();
-        
+
 
     }
 
